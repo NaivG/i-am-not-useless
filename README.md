@@ -53,8 +53,13 @@ The skill package itself contains no code, only instruction text.
 The standard installer for the open Agent Skills ecosystem, covering 75+ agents. Install it directly using the skills CLI:
 
 ```sh
-npm i -g skills@latest
 npx skills add NaivG/i-am-not-useless
+```
+or install/use CLI globally:
+
+```sh
+npm i -g skills@latest
+skills add NaivG/i-am-not-useless
 ```
 
 Add `-g` to install for every project on this machine (default is current project only), `-a` to target specific agents, `-y` to skip interactive prompts:

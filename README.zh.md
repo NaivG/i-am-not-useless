@@ -53,8 +53,14 @@ npx skills add NaivG/i-am-not-useless
 这是开放 Agent Skills 生态的标准安装器，覆盖 75 个以上智能体。使用 skills CLI 可直接安装：
 
 ```sh
-npm i -g skills@latest
 npx skills add NaivG/i-am-not-useless
+```
+
+或者安装/使用全局 skills-cli：
+
+```sh
+npm i -g skills@latest
+skills add NaivG/i-am-not-useless
 ```
 
 加 `-g` 装到本机所有项目（默认只装当前项目），用 `-a` 指定目标智能体，用 `-y` 跳过交互确认：
