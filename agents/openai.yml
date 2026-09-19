@@ -1,0 +1,5 @@
+interface:
+  display_name: "I am not useless"
+  short_description: "Treat the user as an active source of context and decisions"
+policy:
+  allow_implicit_invocation: false
